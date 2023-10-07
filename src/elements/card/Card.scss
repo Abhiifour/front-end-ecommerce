@@ -1,0 +1,48 @@
+.card-main{
+    cursor: pointer;
+    margin-top: 50px;
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 8px 1px;
+    transition: 0.1s;
+    
+    .img-part{
+        height:250px;
+      
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      .img{
+        width: 90%;
+        border-radius: 10px;
+        overflow: hidden;
+
+        img{
+            width: 100%;
+            height: 100%;
+          }
+      }
+    }
+    .detail-part{
+        width: 90%;
+        margin-inline: auto;
+        margin-block: 20px;
+        .name{
+          font-size: 15px;
+          padding-inline: 5px;
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        }
+        .price{
+            padding-top: 10px;
+            padding-inline: 5px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+    }
+    
+    &:hover{
+        scale: 1.02;
+        color: violet;
+    }
+}
